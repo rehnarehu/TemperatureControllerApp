@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MySerialPort>
+	<PortName>COM3</PortName>
+	<BaudRate>115200</BaudRate>
+	<Parity>None</Parity>
+	<DataBits>8</DataBits>
+	<StopBits>1</StopBits>
+</MySerialPort>
