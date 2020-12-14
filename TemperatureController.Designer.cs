@@ -56,7 +56,6 @@ namespace TemperatureControllerProject
             // 
             // Params
             // 
-            this.Params.Controls.Add(this.Connect);
             this.Params.Controls.Add(this.Parity);
             this.Params.Controls.Add(this.StopBits);
             this.Params.Controls.Add(this.DataBits);
@@ -80,9 +79,9 @@ namespace TemperatureControllerProject
             this.Connect.BackColor = System.Drawing.Color.SteelBlue;
             this.Connect.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Connect.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Connect.Location = new System.Drawing.Point(151, 265);
+            this.Connect.Location = new System.Drawing.Point(115, 475);
             this.Connect.Name = "Connect";
-            this.Connect.Size = new System.Drawing.Size(93, 34);
+            this.Connect.Size = new System.Drawing.Size(165, 34);
             this.Connect.TabIndex = 10;
             this.Connect.Text = "CONNECT";
             this.Connect.UseVisualStyleBackColor = false;
@@ -300,6 +299,7 @@ namespace TemperatureControllerProject
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(872, 588);
+            this.Controls.Add(this.Connect);
             this.Controls.Add(this.Manual);
             this.Controls.Add(this.Auto);
             this.Controls.Add(this.Limits);

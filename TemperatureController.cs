@@ -166,7 +166,7 @@ namespace TemperatureControllerProject
         }
         public void VisibleForm()
         {
-            this.Show();
+            this.Visible=true;
         }
     }
 }
